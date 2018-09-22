@@ -155,3 +155,16 @@ umount -R /mnt/xxx
 reboot
 ```
 ## Post Installation
+
+## Graphique Installation
+```
+pacman -Syu xorg-server xorg-xinit
+pacman -Syu xf86-video-intel
+```
+
+## Gnome Installation
+```
+pacman -S gnome gnome-extra gdm gnome-terminal
+systemctl enable gdm
+```
+
